@@ -1,0 +1,55 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(228, 56, 56);
+}
+header{
+    background-color: #eeeeff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.cabecalho img{
+    margin: 15px 20px 10px;
+    width: 250px;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pokedex{
+    display: flex;
+    gap: 30px;
+    padding: 20px 40px;
+    border-top: 8px rgb(41, 41, 41) solid;
+    border-right: 35px rgb(41, 41, 41) solid;
+    border-left: 35px rgb(41, 41, 41) solid;
+    border-bottom: 8px rgb(41, 41, 41) solid;
+    background: rgb(226, 226, 226);
+    width: 800px;
+    margin: 20px 0px;
+    border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(12 6 6 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
+}
+a{
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+footer{
+    background-color: #eeeeff;
+    font-family: 'Outfit', sans-serif;
+    height: 100px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+    /* color: #fff; */
+}
+footer img{
+    padding-top: 10px;
+    width: 30px;
+    margin-bottom: -10px;
+}

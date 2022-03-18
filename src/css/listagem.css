@@ -1,0 +1,32 @@
+.listaMonstros{
+    max-width: 200px;
+}
+.listaMonstros .pokemon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #6b727a;
+    color: #fff;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    min-height: 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.05s ease-in-out;
+}
+.listaMonstros .pokemon:hover {
+    transform: scale(1.05);
+}
+.listaMonstros .pokemon img{
+    width: 25%;
+    border-radius: 50%;
+}
+.listaMonstros .pokemon span{
+    padding-right: 20px;
+}
+.listaMonstros .pokemon.ativo {
+    background-color: rgb(228, 56, 56);
+    /* background-color: #fa6668; */
+}
