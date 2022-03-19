@@ -1,5 +1,13 @@
 .listaMonstros{
-    max-width: 200px;
+    overflow-y: scroll;
+    min-width: 200px;
+    height: 490px;
+    border: 1px solid hsl(0, 0% ,50%, 0.08);
+    scroll-margin-left: 300px;
+    background-color: #6b727a11;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
 }
 .listaMonstros .pokemon{
     display: flex;
@@ -10,8 +18,7 @@
     color: #fff;
     padding: 0 5px;
     cursor: pointer;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-radius: 8px;
     min-height: 70px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: 0.05s ease-in-out;
