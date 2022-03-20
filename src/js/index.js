@@ -21,3 +21,17 @@ listaSelecaoPokemons.forEach(pokemon => {
         botaoASerAtivado.classList.add('ativo')
     })
 })
+// TENHO QUE APRENDER JS LOGO AF 
+
+// document.addEventListener('keydown', function(event) {
+//     const key = event.key; 
+    
+//     switch (event.key) { 
+//       case "ArrowUp":
+//           console.log("ta funfando pra cima")
+//           break;
+//       case "ArrowDown":
+//           console.log("ta funfando pra baixo")
+//           break;
+//      }
+// });

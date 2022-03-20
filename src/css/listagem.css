@@ -25,6 +25,8 @@
 }
 .listaMonstros .pokemon:hover {
     transform: scale(1.05);
+    background-color: rgba(228, 56, 56, 0.877);
+    background-color: rgba(28, 16, 202, 0.541);
 }
 .listaMonstros .pokemon img{
     width: 25%;
@@ -34,6 +36,6 @@
     padding-right: 20px;
 }
 .listaMonstros .pokemon.ativo {
-    background-color: rgb(228, 56, 56);
-    /* background-color: #fa6668; */
+    background-color: rgb(196, 13, 13);
+    background-color: rgb(53, 0, 177);
 }
